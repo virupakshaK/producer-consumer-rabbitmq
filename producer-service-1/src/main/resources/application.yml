@@ -1,0 +1,15 @@
+spring :
+  application.name : producer-service-1
+  rabbitmq :
+    host : localhost
+    port : 5672
+    username : veeru
+    password : veeru123
+     
+server:
+  port: 5151
+  
+  
+logging:
+     level: 
+         org.springframework.web: Info
